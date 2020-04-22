@@ -1,27 +1,24 @@
 public class Prenda {
+    Tipo tipo;
     Categoria categoria;
     Material material;
+    Trama trama;
     Color colorPrincipal;
     Color colorSecundario = null;  //Puede ser que no haya tal color --> las prendas que no tengan dejaran este parametro vacio
-    Tipo tipo;
 
-    Prenda(Categoria _categoria, Material _material, Color _colorPrincipal, Tipo _tipo){
-      PrecondicionesValidas.validarQueNoSeaNull(_categoria, "Falta poner la categoria");
-      PrecondicionesValidas.validarQueNoSeaNull(_material, "Falta poner el tipo de material");
-      PrecondicionesValidas.validarQueNoSeaNull(_colorPrincipal, "Falta que tenga un color principal");
+
+    Prenda(Tipo _tipo, Material _material){
+
       PrecondicionesValidas.validarQueNoSeaNull(_tipo, "Falta el tipo al qe pertenece");
-      this.verificarQueSeCondicen(_categoria, _tipo);
-      categoria = _categoria;
-      material = _material;
-      colorPrincipal = _colorPrincipal;
+      PrecondicionesValidas.validarQueNoSeaNull(_material, "Falta poner el tipo de material");
+
       tipo = _tipo;
+      categoria = _tipo.getCategoria();
+      material = _material;
+      colorPrincipal = _material.getColorPrincipal();
+      trama = material.getTrama();
     }
 
-    void verificarQueSeCondicen(Categoria categoria, Tipo tipo){
-        if(!categoria.contieneAl(tipo)){
-            throw new RuntimeException("No se Condicen");
-        }
-    }
 
     Categoria getCategoria(){
             return categoria;

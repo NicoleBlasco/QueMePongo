@@ -4,5 +4,11 @@ public class PrecondicionesValidas {
             throw new RuntimeException(mensaje);
         }
     }
+
+    static void validarConsistencia(Material material, Tipo tipo){
+        if (!tipo.esConsistenteCon(material)) {
+            throw new RuntimeException("El material no es consistente con el tipo de prenda que pasó");
+        }
+    }
 }
 

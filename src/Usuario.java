@@ -5,9 +5,8 @@ import java.util.List;
 public class Usuario {
     List<Prenda> prendas = new ArrayList<>();
 
-    void cargarPrenda(Categoria _categoria, Color _colorPrincipal, Tipo _tipo, Material _material){
-       Prenda unaPrenda = new Prenda(_categoria, _material, _colorPrincipal, _tipo);
-        prendas.add(unaPrenda);
+    void cargarPrenda(Prenda unaPrenda){
+      prendas.add(unaPrenda);
     }
 
     //void generarAtuendo()
