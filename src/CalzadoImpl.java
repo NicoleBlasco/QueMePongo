@@ -1,2 +1,2 @@
-public class CalzadoImpl extends Calzado {
+public class CalzadoImpl extends Categoria {
 }

@@ -1,2 +1,2 @@
-public class ParteInferiorImpl extends ParteInferior {
+public class ParteInferiorImpl extends Categoria {
 }

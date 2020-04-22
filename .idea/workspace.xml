@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f78ccf5-6cba-4abf-917b-9b1bfb1109ee" name="Default Changelist" comment="" />
+    <list default="true" id="8f78ccf5-6cba-4abf-917b-9b1bfb1109ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrecondicionesValidas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalzadoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalzadoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParteInferiorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParteInferiorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Usuario.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aY1Vo6LSeHFgX2UuEeo9Wr9YJA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,6 +34,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -47,9 +59,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1380" y="534" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586904373076" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586898843481">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587578271256">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586898843481" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587578271256" />
   </component>
 </project>

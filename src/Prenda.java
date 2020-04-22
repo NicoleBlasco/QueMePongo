@@ -2,15 +2,18 @@ public class Prenda {
     Categoria categoria;
     Material material;
     Color colorPrincipal;
-    Color colorSecundario;  //Puede ser que no haya tal color --> las prendas que no tengan dejaran este parametro vacio
+    Color colorSecundario = null;  //Puede ser que no haya tal color --> las prendas que no tengan dejaran este parametro vacio
     Tipo tipo;
 
-    Prenda(Categoria _categoria, Material _material, Color _colorPrincipal, Color _colorSecundario, Tipo _tipo){
+    Prenda(Categoria _categoria, Material _material, Color _colorPrincipal, Tipo _tipo){
+      PrecondicionesValidas.validarQueNoSeaNull(_categoria, "Falta poner la categoria");
+      PrecondicionesValidas.validarQueNoSeaNull(_material, "Falta poner el tipo de material");
+      PrecondicionesValidas.validarQueNoSeaNull(_colorPrincipal, "Falta que tenga un color principal");
+      PrecondicionesValidas.validarQueNoSeaNull(_tipo, "Falta el tipo al qe pertenece");
       this.verificarQueSeCondicen(_categoria, _tipo);
       categoria = _categoria;
       material = _material;
       colorPrincipal = _colorPrincipal;
-      colorSecundario = _colorSecundario;
       tipo = _tipo;
     }
 
@@ -24,16 +27,20 @@ public class Prenda {
             return categoria;
         }
 
-        Material getMaterial(){
+    Material getMaterial(){
             return material;
         }
 
-        Color getColorPrincipal(){
+    Color getColorPrincipal(){
             return colorPrincipal;
         }
 
-        Color getColorSecundario(){
-           return colorSecundario;
+    void setterColorSecundario(Color unColor){
+           colorSecundario = unColor;
         }
+
+    Color getColorSecundario(){
+        return colorSecundario;
+    }
 
 }
