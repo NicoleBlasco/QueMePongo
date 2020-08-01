@@ -4,18 +4,18 @@ public class Prenda {
     Material material;
     Trama trama;
     Color colorPrincipal;
-    Color colorSecundario = null;  //Puede ser que no haya tal color --> las prendas que no tengan dejaran este parametro vacio
+    Color colorSecundario;  //Puede ser que no haya tal color --> las prendas que no tengan dejaran este parametro vacio
 
 
-    Prenda(Tipo _tipo, Material _material){
+    Prenda(Tipo tipo, Material material){
 
-      PrecondicionesValidas.validarQueNoSeaNull(_tipo, "Falta el tipo al qe pertenece");
-      PrecondicionesValidas.validarQueNoSeaNull(_material, "Falta poner el tipo de material");
+      PrecondicionesValidas.validarQueNoSeaNull(tipo, "Falta el tipo al que pertenece");
+      PrecondicionesValidas.validarQueNoSeaNull(material, "Falta poner el tipo de material");
 
-      tipo = _tipo;
-      categoria = _tipo.getCategoria();
-      material = _material;
-      colorPrincipal = _material.getColorPrincipal();
+      this.tipo = tipo;
+      categoria = tipo.getCategoria();
+      this.material = material;
+      colorPrincipal = material.getColorPrincipal();
       trama = material.getTrama();
     }
 

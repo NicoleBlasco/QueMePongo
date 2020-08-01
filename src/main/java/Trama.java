@@ -1,2 +1,3 @@
-public interface Trama {
+public enum Trama {
+    LISA, RAYADA, LUNARES, CUADROS, ESTAMPADO;
 }

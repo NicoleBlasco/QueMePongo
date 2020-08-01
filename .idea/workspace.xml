@@ -3,7 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="8f78ccf5-6cba-4abf-917b-9b1bfb1109ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ACuadros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AccesoriosImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CalzadoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Estampado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lisa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lunares.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Material.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Material.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ParteInferiorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ParteSuperior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Prenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Prenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tela.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tela.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trama.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -50,10 +64,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1380" y="534" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586904373076">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596320614326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1380" y="534" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586904373076" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596320614326" />
     <state x="740" y="237" key="FileChooserDialogImpl" timestamp="1588469136115">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

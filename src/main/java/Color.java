@@ -1,2 +1,3 @@
-public interface Color {
+public enum Color {
+    BLANCO, NEGRO, AZUL, ROJO, AMARILLO, VERDE, VIOLETA;
 }

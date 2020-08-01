@@ -9,17 +9,6 @@ public class Usuario {
       prendas.add(unaPrenda);
     }
 
-    //void generarAtuendo()
-
-    //void guardarPrenda(Prenda unaPrenda){
-    // try{
-    //
-    //    }catch(){
-    //            throw new RuntimeException("La prenda no es valida")
-    //            }
-    //
-    // } --> tiene que poder construirse
-
     Categoria identificarCategoria(Prenda prenda){
         return prenda.getCategoria();
     }
