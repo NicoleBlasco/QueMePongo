@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f78ccf5-6cba-4abf-917b-9b1bfb1109ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ACuadros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estampado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lisa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lunares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tela.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trama.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Material.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Material.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrecondicionesValidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrecondicionesValidas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tipo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,9 +54,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1380" y="534" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586904373076" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587582386696">
+    <state x="740" y="237" key="FileChooserDialogImpl" timestamp="1588469136115">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587582386696" />
+    <state x="740" y="237" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588469136115" />
+    <state x="625" y="219" key="NewModule_or_Project.wizard" timestamp="1588469126471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="625" y="219" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1588469126471" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589222511910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589222511910" />
+    <state x="342" y="140" key="new project wizard" timestamp="1587941089086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587941089086" />
   </component>
 </project>
