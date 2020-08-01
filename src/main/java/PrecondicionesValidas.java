@@ -10,5 +10,11 @@ public class PrecondicionesValidas {
             throw new RuntimeException("El material no es consistente con el tipo de prenda que pasó");
         }
     }
+
+    static void validarQueSeCondicen(Categoria categoria1, Categoria categoria2){
+        if(categoria1 != categoria2){
+            throw new RuntimeException("No se condicen");
+        }
+    }
 }
 

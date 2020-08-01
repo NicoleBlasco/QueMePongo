@@ -7,16 +7,10 @@ public class Tipo {
 
     Tipo(Categoria categoria, List materialesConsistentes){
         PrecondicionesValidas.validarQueNoSeaNull(categoria, "Falta poner la categoria");
-        this.verificarQueSeCondicen(categoria);
-        this.categoria = categoria;
+        PrecondicionesValidas.validarQueSeCondicen(this.categoria, categoria);
         this.materialesConsistentes = materialesConsistentes;
     }
 
-    void verificarQueSeCondicen(Categoria categoria){
-        if(!categoria.contieneAl(this)){
-            throw new RuntimeException("No se Condicen");
-        }
-    }
 
     Categoria getCategoria(){
         return categoria;
